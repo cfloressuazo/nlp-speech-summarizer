@@ -1,0 +1,38 @@
+*.pyc
+*.pyo
+/tmp*
+*.log
+*nohup.out
+__pycache__
+*.egg-info
+.vscode
+/build
+/dist
+/*.env
+.DS_Store
+.ipynb_checkpoints
+!*.gitkeep
+
+# Docker for security
+docker-compose.yaml
+Dockerfile
+
+# enviornment
+.venv
+.python-version
+
+# CDK
+/cdk/cdk.out
+
+#IDE Stuff
+**/.idea
+
+#OS STUFF
+.tmp
+
+# Poetry
+poetry.lock
+# Models
+*.joblib
+# *.model
+*.p
